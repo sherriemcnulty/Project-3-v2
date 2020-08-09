@@ -1,0 +1,49 @@
+.department-card {
+  background: #fff;
+  border-radius: 2px;
+  height: 120px;
+  margin: 1rem;
+  position: relative;
+  width: 1800px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.department-card > .img-empty {
+  height: 0%;
+  overflow: hidden;
+  text-align: center;
+  background: #6caddc;
+}
+.department-card > .img-empty > img {
+  width: 100%;
+}
+
+.department-card > .department-information {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 12px;
+}
+
+.department-card > .department-information > ul {
+  list-style-type: none;
+}
+
+.department-card > .department-information > ul > li {
+  margin-top: 12px;
+  margin-left: -22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.department-card > .select {
+  color: #ff1744;
+  font-size: 48px;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.department-card > .select:hover {
+  color: #d50000;
+}

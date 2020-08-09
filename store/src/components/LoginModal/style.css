@@ -1,0 +1,50 @@
+.modal {
+  padding: 70px;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+form {
+  padding: 2em !important;
+  min-width: 400px;
+  font-family: "Lato", sans-serif;
+}
+
+#shopping-list-icon {
+  background: white;
+  text-decoration: none;
+  border: none;
+}
+
+#cart-image {
+  height: 55px;
+}
+
+#cart-image:hover {
+  height: 58px;
+
+  transition: height 0.1s ease-out;
+  -moz-transition: height 0.1s ease-out;
+  -webkit-transition: height 0.1s ease-out;
+  -o-transition: height 0.1s ease-out;
+  
+}
+
+#shopping-list-icon:hover {
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+
+  transition: box-shadow 0.1s ease-out;
+  -moz-transition: box-shadow 0.1s ease-out;
+  -webkit-transition: box-shadow 0.1s ease-out;
+  -o-transition: box-shadow 0.1s ease-out;
+}
+
+
